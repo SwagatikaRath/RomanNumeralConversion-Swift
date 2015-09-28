@@ -13,6 +13,8 @@
 		A7258D501BB967BA00A2BB8B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7258D4F1BB967BA00A2BB8B /* Images.xcassets */; };
 		A7258D531BB967BA00A2BB8B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7258D511BB967BA00A2BB8B /* LaunchScreen.xib */; };
 		A7258D5F1BB967BB00A2BB8B /* RomanNumeral_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7258D5E1BB967BB00A2BB8B /* RomanNumeral_SwiftTests.swift */; };
+		A7258D691BB996BA00A2BB8B /* RomanNumeralControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7258D681BB996BA00A2BB8B /* RomanNumeralControllerTest.swift */; };
+		A7258D6A1BB99A1000A2BB8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7258D4A1BB967BA00A2BB8B /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 		A7258D581BB967BB00A2BB8B /* RomanNumeral-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RomanNumeral-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7258D5D1BB967BB00A2BB8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7258D5E1BB967BB00A2BB8B /* RomanNumeral_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeral_SwiftTests.swift; sourceTree = "<group>"; };
+		A7258D681BB996BA00A2BB8B /* RomanNumeralControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanNumeralControllerTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				A7258D5E1BB967BB00A2BB8B /* RomanNumeral_SwiftTests.swift */,
+				A7258D681BB996BA00A2BB8B /* RomanNumeralControllerTest.swift */,
 				A7258D5C1BB967BB00A2BB8B /* Supporting Files */,
 			);
 			path = "RomanNumeral-SwiftTests";
@@ -221,6 +225,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7258D6A1BB99A1000A2BB8B /* ViewController.swift in Sources */,
+				A7258D691BB996BA00A2BB8B /* RomanNumeralControllerTest.swift in Sources */,
 				A7258D5F1BB967BB00A2BB8B /* RomanNumeral_SwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,7 +297,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -329,7 +335,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -341,6 +347,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "RomanNumeral-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -351,6 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "RomanNumeral-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -409,6 +417,7 @@
 				A7258D641BB967BB00A2BB8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7258D651BB967BB00A2BB8B /* Build configuration list for PBXNativeTarget "RomanNumeral-SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				A7258D671BB967BB00A2BB8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
